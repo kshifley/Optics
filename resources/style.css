@@ -57,12 +57,12 @@ nav span {
 #icons .flex {
   justify-content: center;
   height: 16rem;
-  margin-bottom: 3rem;
 }
 
 .paper {
   text-align: justify;
-  width: 10rem;
+  width: 5rem;
+  height: 8rem;
   margin-left: 6rem;
   margin-right: 6rem;
 }
@@ -70,6 +70,7 @@ nav span {
   text-align: center;
   display: block;
   margin:auto;
+  width: 3.5rem;
 }
 
 .paper p {
@@ -78,7 +79,8 @@ nav span {
 
 .ruler {
   text-align: justify;
-  width: 10rem;
+  height: 8rem;
+  width: 5rem;
   margin-left: 6rem;
   margin-right: 6rem;
 }
@@ -86,6 +88,7 @@ nav span {
   text-align: center;
   display: block;
   margin:auto;
+  width: 5rem;
 }
 
 .ruler p {
@@ -94,7 +97,8 @@ nav span {
 
 .truck {
   text-align: justify;
-  width: 10rem;
+  width: 5rem;
+  height: 8rem;
   margin-left: 6rem;
   margin-right: 6rem;
 }
@@ -102,8 +106,56 @@ nav span {
   text-align: center;
   display: block;
   margin:auto;
+  width: 5rem;
 }
 
 .truck p {
   text-align: center;
+}
+
+#blue .flex {
+  justify-content: space-around;
+}
+
+.phil h2 {
+  width: 10rem;
+  background-color: cadetblue;
+  padding-left: 1.25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.app h2 {
+  width: 10rem;
+  background-color: cadetblue;
+  padding-left: 1.25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+
+}
+.phil p {
+  width: 20rem;
+  margin-right: 5%;
+}
+
+.app p {
+  width: 20rem;
+  margin-right: 5%;
+}
+#copy .flex {
+  margin-top: 5rem;
+  padding: 4rem;
+  background-color: azure;
+  align-items: center;
+}
+#copy img {
+  height: 1.5rem;
+  margin-right: 1rem;
 }
